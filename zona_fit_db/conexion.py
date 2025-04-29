@@ -41,11 +41,3 @@ class Conexion:
         pool = cls.obtener_pool()
         if pool is not None:
             pool.append(conexion)
-        
-# if __name__ == '__main__':
-#     pool = Conexion.obtener_pool()
-#     print(pool)
-#     conexion1 = Conexion.obtener_conexion()
-#     print(conexion1)
-#     Conexion.liberar_conexion(conexion1)
-#     print(f'Se ha liberado el objeto conexion1')

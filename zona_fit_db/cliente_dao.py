@@ -87,20 +87,6 @@ class ClienteDAO:
         
 
 if __name__ == '__main__':
-    # Insertar cliente
-    # cliente1 = Cliente(nombre='Angela', apellido='Perez', membresia='300')
-    # clientes_insertados = ClienteDAO.insertar(cliente1)
-    # print(f'Clientes insertados: {clientes_insertados}')
-    
-    #Actualizar cliente
-    # cliente_actualizar = Cliente(3, 'Alexa', 'Perez', 400)
-    # clientes_actualizados = ClienteDAO.actualizar(cliente_actualizar)
-    # print(f'Clientes actualizados: {clientes_actualizados}')
-    
-    #Eliminar cliente
-    # cliente_eliminar = Cliente(id=3)
-    # clientes_eliminados = ClienteDAO.eliminar(cliente_eliminar)
-    # print(f' Clientes eliminados: {clientes_eliminados}')
     
     # Seleccionar clientes
     clientes = ClienteDAO.seleccionar()
